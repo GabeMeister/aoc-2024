@@ -147,13 +147,8 @@ func Part1() {
 	}
 
 	horizontal := getHorizontal(grid)
-	fmt.Print("\n\n", "*** horizontal ***", "\n", horizontal, "\n\n\n")
-
 	vertical := getVertical(grid)
-	fmt.Print("\n\n", "*** vertical ***", "\n", vertical, "\n\n\n")
-
 	diagonal := getDiagonal(grid)
-	fmt.Print("\n\n", "*** diagonal ***", "\n", diagonal, "\n\n\n")
 
 	total := horizontal + vertical + diagonal
 	fmt.Print("\n\n", "*** total ***", "\n", total, "\n\n\n")
@@ -273,13 +268,9 @@ func Part2() {
 	}
 
 	f1 := getFormation1(grid)
-	fmt.Print("\n\n", "*** f1 ***", "\n", f1, "\n\n\n")
 	f2 := getFormation2(grid)
-	fmt.Print("\n\n", "*** f2 ***", "\n", f2, "\n\n\n")
 	f3 := getFormation3(grid)
-	fmt.Print("\n\n", "*** f3 ***", "\n", f3, "\n\n\n")
 	f4 := getFormation4(grid)
-	fmt.Print("\n\n", "*** f4 ***", "\n", f4, "\n\n\n")
 
 	total := f1 + f2 + f3 + f4
 	fmt.Print("\n\n", "*** total ***", "\n", total, "\n\n\n")
